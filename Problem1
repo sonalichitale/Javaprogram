@@ -1,0 +1,16 @@
+package JAVAAssignment;
+
+public class Problem1 {
+
+    public static void main(String[] args) {
+
+        Problem1 pm =new Problem1();
+        System.out.println(pm.Add_number(8.6f,9.7f));
+
+    }
+    public Float Add_number(float a, float b)
+    {
+        return a+b;
+
+    }
+}
