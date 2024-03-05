@@ -1,0 +1,25 @@
+package JAVAAssignment;
+
+public class Problem3 {
+
+    public static void main(String[] args) {
+        test(65);
+    }
+
+
+    public static void test(int age)
+    {
+        if(age < 25 || age > 55)
+        {
+            throw new ArithmeticException("Age is not proper");
+        }
+        else {
+            System.out.println("Age is proper");
+        }
+    }
+}
+
+
+
+
+
