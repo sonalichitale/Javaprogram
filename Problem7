@@ -1,0 +1,25 @@
+package JAVAAssignment;
+
+public class Problem7 {
+
+    public static void main(String[] args) {
+        Problem7 pmn = new Problem7();
+        System.out.println(pmn.returnNumber());
+    }
+    public int returnNumber(){
+
+
+
+        int c = 0;
+
+        int a =(int) 7.8;
+
+        int b = (int) 4.4;
+
+        c=a+b;
+
+        return c;
+
+    }
+
+}
