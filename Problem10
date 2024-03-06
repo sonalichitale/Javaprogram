@@ -1,0 +1,28 @@
+package JAVAAssignment;
+
+public class Problem10 {
+
+    private int a;
+
+    public static void main(String[] args) {
+        Problem10 p4 = new Problem10();
+        int value = p4.getff();
+        System.out.println("Value "+value);
+    }
+
+    public int getff()
+    {
+        return a;
+    }
+}
+
+package JAVAAssignment;
+
+import java.util.*;
+public class Problem10B {
+
+    public static void main(String[] args) {
+        Problem10 pr1 = new Problem10();
+        // unable to call private variable in another class
+    }
+}
