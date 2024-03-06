@@ -1,0 +1,18 @@
+package JAVAAssignment;
+
+public class Problem22 {
+
+    public static void main(String[] args) {
+    Problem22 pm1 = new Problem22();
+    pm1.uplow();
+    }
+
+    public void uplow()
+    {
+        String stre = "Narendra Modi";
+        String result = stre.toLowerCase();
+        String result1 = stre.toUpperCase();
+        System.out.println("Lower Case: "+result);
+        System.out.println("Upper Case: "+result1);
+    }
+}
