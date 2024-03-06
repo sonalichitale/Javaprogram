@@ -1,0 +1,18 @@
+package JAVAAssignment;
+
+
+
+public class Problem9 {
+
+    public static void main(String[] args) {
+        String str = "ABCDE12345";
+        System.out.print(extractInt(str));
+    }
+
+    static  String extractInt(String str)
+    {
+        str = str.replaceAll("[^0-9]", " ");
+        str = str.replaceAll(" +", " ");
+        return str;
+    }
+}
