@@ -1,0 +1,16 @@
+package JAVAAssignment;
+
+public class Problem14 {
+
+    public static void main(String[] args) {
+        Problem14 pro = new Problem14();
+        pro.datefun();
+    }
+    public void datefun()
+    {
+
+        //System.out.println(java.time.LocalDate.now());
+        String date =String.valueOf(java.time.LocalDate.now());
+        System.out.println("Current Date: "+date);
+    }
+}
