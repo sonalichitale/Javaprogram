@@ -1,0 +1,30 @@
+package JAVAAssignment;
+
+public class Problem4 {
+
+    public static void main(String[] arg)
+    {
+        Problem4 jm = new Problem4();
+        jm.arithmatic(100,200,"add");
+        jm.arithmatic(40,20,"sub");
+        jm.arithmatic(40,2,"div");
+        jm.arithmatic(20,10,"mul");
+
+    }
+
+    public void arithmatic(int a, int b,String c)
+    {
+        if (c=="add") {
+            System.out.println(a + b);
+        } else if (c=="sub") {
+            System.out.println(a-b);
+        } else if (c=="div") {
+            System.out.println(a/b);
+        } else if (c=="mul") {
+            System.out.println(a*b);
+
+        }
+    }
+
+
+}
