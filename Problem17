@@ -1,0 +1,21 @@
+package JAVAAssignment;
+
+public class Problem17 {
+    public static void main(String[] args) {
+        Problem17 sm = new Problem17();
+        sm.evenodd(10);
+    }
+
+    public void evenodd(int i)
+    {
+        if (i % 2 == 0)
+        {
+            System.out.println("Even Number: "+i);
+        }
+        else {
+            System.out.println("Odd number: "+i);
+
+        }
+
+    }
+}
