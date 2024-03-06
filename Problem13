@@ -1,0 +1,24 @@
+package JAVAAssignment;
+
+public class Problem13 {
+
+    public static void main(String[] args) {
+        Problem13 pro = new Problem13();
+        pro.strdata();
+    }
+
+    public void strdata()
+    {
+        String str ="Welcome To Java", nstr = "";
+        char ch;
+        for(int i=0;i<str.length();i++)
+        {
+            ch =str.charAt(i);
+            nstr=ch+nstr;
+
+        }
+
+        System.out.println("Reverse word: " +nstr);
+
+    }
+}
