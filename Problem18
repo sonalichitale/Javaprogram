@@ -1,0 +1,26 @@
+package JAVAAssignment;
+
+public class Problem18 {
+
+    public static void main(String[] args) {
+        Problem18 prw = new Problem18();
+        prw.substr();
+        prw.substr1();
+    }
+
+    public void substr()
+    {
+        String s = "Sachin Tendulkar";
+        String[] result = s.split(" ",2);
+                String first = result[0];
+        System.out.println("first String:  "+first);
+    }
+
+    public void substr1()
+    {
+        String s = "Rahul Dravid";
+        String[] result = s.split(" ",2);
+        String second = result[1];
+        System.out.println("second String:  "+second);
+    }
+}
