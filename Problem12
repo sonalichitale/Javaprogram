@@ -1,0 +1,26 @@
+package JAVAAssignment;
+
+public class Problem12 {
+    static int i;
+    public static void main(String[] args) {
+
+        Problem12 pre = new Problem12();
+        pre.whl();
+    }
+
+    public void whl()
+    {
+        while (i<=100)
+        {
+            System.out.println(i);
+            i++;
+        }
+        for(i=0;i<=100;i++)
+        {
+            System.out.println(i);
+        }
+    }
+
+
+
+}
