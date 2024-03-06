@@ -1,0 +1,21 @@
+package JAVAAssignment;
+
+
+
+public class Problem20 {
+
+    String str1 ="Cristiano Ronaldo";
+    String str2 = "Ronaldo Nazario";
+
+    public static void main(String[] args) {
+        Problem20 p2 = new Problem20();
+        p2.strcmp();
+    }
+
+    public void strcmp()
+    {
+        boolean result1 = str1.equals(str2);
+        System.out.println("String 1 & 2 is equal "+result1);
+    }
+
+}
