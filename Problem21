@@ -1,0 +1,24 @@
+package JAVAAssignment;
+
+public class Problem21 {
+
+    public static void main(String[] args) {
+        Problem21 pr = new Problem21();
+        pr.repstr();
+        pr.repstr1();
+    }
+
+    public void repstr()
+    {
+        String s = "Liverpool";
+        String result =s.replace("Liverpool","Liverpool Football Club");
+        System.out.println("Replace String: "+result);
+    }
+
+    public void repstr1()
+    {
+        String s1 = "City";
+        String result1 =s1.replace("City","Manchester City");
+        System.out.println("Replace String: "+result1);
+    }
+}
