@@ -1,0 +1,27 @@
+package JAVAAssignment;
+
+public class Problem2 {
+
+    int c;
+    int d;
+    public Problem2(int a, int b)
+    {
+        this.c = a;
+        this.d = b;
+    }
+}
+
+
+package JAVAAssignment;
+
+import java.util.*;
+public class Problem2B {
+
+    public static void main(String[] args) {
+        Problem2 pm3 = new Problem2(2,3);
+        System.out.println(pm3.c+pm3.d);
+
+    }
+}
+
+
