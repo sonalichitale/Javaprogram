@@ -1,0 +1,25 @@
+package JAVAAssignment;
+
+import java.util.Random;
+import java.util.UUID;
+import java.util.concurrent.ThreadLocalRandom;
+
+
+public class Problem15 {
+
+
+    public static void main(String[] args) {
+          System.out.println(generateType1UUID());
+
+    }
+
+    public static String generateType1UUID() {
+
+        String uuid1 = "";
+
+       UUID uuid = UUID.randomUUID();
+        uuid1 = uuid.toString().replace("-","");
+        return uuid1;
+    }
+
+}
