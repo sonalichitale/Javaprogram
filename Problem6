@@ -1,0 +1,52 @@
+package JAVAAssignment;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.TreeSet;
+
+public class Problem6 {
+
+    public static void main(String[] args) {
+      Problem6 arr2 = new Problem6();
+      arr2.arrlist();
+      arr2.hashse();
+      arr2.treese();
+    }
+
+    public void arrlist()
+    {
+        int n =500;
+        ArrayList<Integer> arr1 = new ArrayList<Integer>(n);
+        for (int i =200;i<=n;i++)
+        {
+            arr1.add(i);
+
+        }
+        System.out.println("Array 1: " +arr1);
+    }
+
+    public void hashse()
+    {
+        int n=500;
+        HashSet<Integer> hr1 = new HashSet<Integer>(n);
+        for (int i =200;i<=n;i++)
+        {
+            hr1.add(i);
+
+        }
+        System.out.println("Array 2: " +hr1);
+    }
+
+    public void treese()
+    {
+        int n=500;
+        TreeSet<Integer> tr1 =new TreeSet<Integer>();
+        for (int i =200;i<=n;i++)
+        {
+            tr1.add(i);
+
+        }
+        System.out.println("Array 3: " +tr1);
+    }
+
+}
