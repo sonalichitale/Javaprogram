@@ -34,7 +34,7 @@ public class Problem6 {
             hr1.add(i);
 
         }
-        System.out.println("Array 2: " +hr1);
+        System.out.println("Hashset : " +hr1);
     }
 
     public void treese()
@@ -46,7 +46,7 @@ public class Problem6 {
             tr1.add(i);
 
         }
-        System.out.println("Array 3: " +tr1);
+        System.out.println("Treeset: " +tr1);
     }
 
 }
