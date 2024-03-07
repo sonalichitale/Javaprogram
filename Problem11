@@ -1,0 +1,22 @@
+package JAVAAssignment;
+
+import java.util.HashMap;
+
+public class Problem11 {
+    public static void main(String[] args) {
+    Problem11 pr3 = new Problem11();
+    pr3.emp();
+    }
+
+    public void emp()
+    {
+        HashMap<String,Integer> empdata =new HashMap<>();
+        empdata.put("Jadeja",123);
+        empdata.put("Sonali",234);
+        empdata.put("Madhuri",100);
+        empdata.put("Sayali",345);
+        empdata.put("Saee",300);
+        System.out.println(empdata.get("Jadeja"));
+        System.out.println(empdata.size());
+    }
+}
