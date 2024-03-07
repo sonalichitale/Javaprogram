@@ -1,0 +1,27 @@
+package JAVAAssignment;
+
+public class Problem19 {
+
+    public static void main(String[] args) {
+    Problem19 pre = new Problem19();
+    pre.rpl("400");
+    pre.rpl1("Davi Beckham");
+    }
+
+    public void rpl( String Goal)
+    {
+        System.out.print("Number of goals scored by Lionel Messi: ");
+        System.out.println(Goal.replace("400","579"));
+
+        //return Goal;
+    }
+
+    public void rpl1(String str1)
+    {
+        System.out.print("Check Spelling: ");
+        System.out.println(str1.replace("Davi","David"));
+       // return str1;
+    }
+
+
+}
