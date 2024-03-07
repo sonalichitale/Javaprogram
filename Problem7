@@ -4,6 +4,33 @@ public class Problem7 {
 
     public static void main(String[] args) {
         Problem7 pmn = new Problem7();
+        pmn.returnNumber();
+    }
+    public float returnNumber(){
+
+        float c=0;
+
+       /* int a =(int) 7.8;
+
+        int b = (int) 4.4;*/
+
+        float a = 7.8f;
+        float b= 4.4f;
+
+        c = a+b;
+        System.out.println("value of c: "+c);
+        return c;
+    }
+
+}
+
+
+package JAVAAssignment;
+
+public class Problem7 {
+
+    public static void main(String[] args) {
+        Problem7 pmn = new Problem7();
         System.out.println(pmn.returnNumber());
     }
     public int returnNumber(){
